@@ -1,0 +1,5 @@
+step 1: find no of colunms are used by the query.
+
+step 2 :finding number of columns using union 
+
+' union select null,null,null--
